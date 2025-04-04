@@ -1,1 +1,3 @@
-- Create GitHub Actions workflow triggering on pull_request_target, with actions/checkout ref on github.event.pull_request.head_sha and then run checkov on the code
+- Create a new public repo called "oss-tool"
+  - Initialize with a README.md
+  - In this new repo, create GitHub Actions workflow triggering on pull_request_target, with actions/checkout ref on github.event.pull_request.head_sha and then run checkov on the code
